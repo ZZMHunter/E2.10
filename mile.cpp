@@ -11,9 +11,9 @@
 #include <iostream>
 
 int main(){
-    int gallons;
-    int fuelEfficiency;
-    int pricePerGallon;
+    double gallons;
+    double fuelEfficiency;
+    double pricePerGallon;
     std::cout << "Enter gallons of gas in the tank: ";
     std::cin >> gallons;
     std::cout << "Enter fuel efficiency of car in miles per gallon: ";
