@@ -20,7 +20,7 @@ int main(){
     std::cin >> fuelEfficiency;
     std::cout << "Enter price of gas per gallon: ";
     std::cin >> pricePerGallon;
-    std::cout << "The cost to drive the car 100 miles is $" << fuelEfficiency/100 * pricePerGallon << std::endl;
+    std::cout << "The cost to drive the car 100 miles is $" << 100/fuelEfficiency * pricePerGallon << std::endl;
     std::cout << "The car can drive " << gallons*fuelEfficiency << " miles with the amount of fuel in the tank" << std::endl;
     return 0;
 }
